@@ -1,0 +1,110 @@
+main > h1{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30.8px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card > h2{
+    width: 90%;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30.8px;
+    font-weight: 400;
+}
+
+.card > p{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15.4px;
+    font-weight: 300;
+    width: 90%;
+}
+
+.price{
+    font-size: 40px !important;
+    font-weight: 500 !important;
+}
+
+main li{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15.4px;
+    font-weight: 350;
+}
+
+.button-apoiar{
+    padding: 10px 20px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button-apoiar:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+.explication > li{
+    font-size: 25px !important;
+}
+
+.explication{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 575px) {
+    .card{
+        width: 300px;
+        height: 700px;
+        padding: 10px;
+    }
+
+    .card > h2{
+        font-size: 25px;
+    }
+
+    .card > p{
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 30px !important;
+    }
+
+    main ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main li{
+        font-size: 15px;
+    }
+
+    .button-apoiar{
+        font-size: 15px;
+    }
+
+    .explication > li{
+        font-size: 20px !important;
+    }
+}
