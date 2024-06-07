@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/cards-larainfo.css">
+    <link rel="stylesheet" href="../../css/larainfo.css">
+
+    <script src="../../javascript/button-menu-header.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>LaraInfo</title>
+</head>
+<body>
+    <header>
+        <div id="left-side">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../index.html"><img src="../../img/logo-lara.png" alt="Logo do projeto LaraHub"></a>
+                    </li>
+                    <li class="button-plans-header">
+                        <a href="../plans.html">Ver planos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="center">
+            <button id="button-menu-header" onclick="clickAnimation()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li id="larahub-menu-header">
+                            <a href="../../index.html" class="weight-middle"><strong>Lara</strong>Hub</a>
+                        </li>
+                        <li id="larainfo-menu-header">
+                            <a href="./larainfo.html" class="weight-middle"><strong>Lara</strong>Info</a>
+                        </li>
+                        <li id="larapace-menu-header">
+                            <a href="../larapace/larapace.html" class="weight-middle"><strong>Lara</strong>Pace</a>
+                        </li>
+                        <li id="laratour-menu-header">
+                            <a href="../laratour/laratour.html" class="weight-middle"><strong>Lara</strong>Tour</a>
+                        </li>
+                        <li id="laracult-menu-header">
+                            <a href="../laracult/laracult.html" class="weight-middle"><strong>Lara</strong>Cult</a>
+                        </li>
+                        <li>
+                            <a href="../sobre.html" class="weight-middle">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="../contato-larahub.html" class="weight-middle">Contato</a>
+                        </li>
+                        <li>
+                            <a href="../plans.html">Ver planos</a>
+                        </li>
+                        <li id="signin-menu-header">
+                            <a href="../signin.html">Sign in</a>
+                        </li>
+                    </ul>
+                </nav>                
+            </div>
+        </div>
+
+        <div id="right-side">
+            <nav>
+                <ul>
+                    <li id="sign-in-header">
+                        <a href="../signin.html">Sign in</a>
+                    </li>
+                    <li id="sign-up-header">
+                        <a href="../signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-banner-info">
+            <nav class="navigation-menu" id="cima">
+                <ul>
+                    <li><a href="#semana-larainfo" class="weight-middle">
+                        Semana <strong>Lara</strong>Info
+                        <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                    </a></li>
+                    <li><a href="#tendencias-larainfo" class="weight-middle">
+                        Tendências <strong>Lara</strong>Info
+                        <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                    </a></li>
+                    <li><a href="#artigos-larainfo" class="weight-middle">
+                        Artigos <strong>Lara</strong>Info
+                        <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                    </a></li>
+                    <li><a href="#curiosidades-larainfo" class="weight-middle">
+                        Curiosidades <strong>Lara</strong>Info
+                        <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                    </a></li>
+                </ul>
+            </nav>
+            <h3 class="weight-middle">Quer escrever o seu próprio <strong>Lara</strong>Info?</h3>
+            <a href="../../index.html" class="button-navigation-banner">Informar</a>
+        </div>
+
+        <nav class="navigation-menu" id="baixo">
+            <ul>
+                <li><a href="#semana-larainfo" class="weight-middle">
+                    Semana <strong>Lara</strong>Info
+                    <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                </a></li>
+                <li><a href="#tendencias-larainfo" class="weight-middle">
+                    Tendências <strong>Lara</strong>Info
+                    <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                </a></li>
+                <li><a href="#artigos-larainfo" class="weight-middle">
+                    Artigos <strong>Lara</strong>Info
+                    <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                </a></li>
+                <li><a href="#curiosidades-larainfo" class="weight-middle">
+                    Curiosidades <strong>Lara</strong>Info
+                    <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Ícone LaraInfo">
+                </a></li>
+            </ul>
+        </nav>
+
+        <div class="subtitle">
+            <h2 class="weight-middle">Principais <strong>Lara</strong>Info</h2>
+            <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Logo do nosso serviço LaraInfo">
+        </div>
+
+        <div class="container">
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-explorandoofuturodosoceanos.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>02h55</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Explorando o Futuro dos Oceanos: Impactos Profundos na Humanidade e no Planeta"</h3>
+                    <a class="open-info-button" href="./info-explorando-o-futuro-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info right">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-luzesnoturnasdecruzeiroafetamavidamarinha.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>03h45</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gustavo-p-borba.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gustavo P. Borba</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Luzes Noturnas de Cruzeiros Afetam Dramaticamente a Vida Marinha"</h3>
+                    <a class="open-info-button" href="./info-luzes-noturnas-em-cruzeiros-afetam-a-vida-marinha.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-larahubajudaconscientizar.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">04.06.2024-<strong>22h26</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Como o LaraHub Ajuda a Conscientizar sobre a Preservação dos Oceanos"</h3>
+                    <a class="open-info-button" href="./info-como-o-larahub-ajuda-a-concientizar-sobre-a-preservacao-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="semana-larainfo">
+            <h2 class="weight-middle">Semana <strong>Lara</strong>Info</h2>
+            <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Logo do nosso serviço LaraInfo">
+        </div>
+        
+        <div class="container">
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-explorandoofuturodosoceanos.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>02h55</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Explorando o Futuro dos Oceanos: Impactos Profundos na Humanidade e no Planeta"</h3>
+                    <a class="open-info-button" href="./info-explorando-o-futuro-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info right">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-luzesnoturnasdecruzeiroafetamavidamarinha.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>03h45</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gustavo-p-borba.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gustavo P. Borba</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Luzes Noturnas de Cruzeiros Afetam Dramaticamente a Vida Marinha"</h3>
+                    <a class="open-info-button" href="./info-luzes-noturnas-em-cruzeiros-afetam-a-vida-marinha.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="tendencias-larainfo">
+            <h2 class="weight-middle">Tendências <strong>Lara</strong>Info</h2>
+            <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Logo do nosso serviço LaraInfo">
+        </div>
+        
+        <div class="container">
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-explorandoofuturodosoceanos.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>02h55</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Explorando o Futuro dos Oceanos: Impactos Profundos na Humanidade e no Planeta"</h3>
+                    <a class="open-info-button" href="../larainfo/info-explorando-o-futuro-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info right">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-luzesnoturnasdecruzeiroafetamavidamarinha.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>03h45</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gustavo-p-borba.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gustavo P. Borba</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Luzes Noturnas de Cruzeiros Afetam Dramaticamente a Vida Marinha"</h3>
+                    <a class="open-info-button" href="./info-luzes-noturnas-em-cruzeiros-afetam-a-vida-marinha.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="artigos-larainfo">
+            <h2 class="weight-middle">Artigos <strong>Lara</strong>Info</h2>
+            <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Logo do nosso serviço LaraInfo">
+        </div>
+        
+        <div class="container">
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-explorandoofuturodosoceanos.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>02h55</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Explorando o Futuro dos Oceanos: Impactos Profundos na Humanidade e no Planeta"</h3>
+                    <a class="open-info-button" href="./info-explorando-o-futuro-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info right">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-luzesnoturnasdecruzeiroafetamavidamarinha.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>03h45</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gustavo-p-borba.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gustavo P. Borba</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Luzes Noturnas de Cruzeiros Afetam Dramaticamente a Vida Marinha"</h3>
+                    <a class="open-info-button" href="./info-luzes-noturnas-em-cruzeiros-afetam-a-vida-marinha.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="curiosidades-larainfo">
+            <h2 class="weight-middle">Curiosidades <strong>Lara</strong>Info</h2>
+            <img src="../../img/larainfo/logo-larainfo-icon.png" alt="Logo do nosso serviço LaraInfo">
+        </div>
+        
+        <div class="container">
+            <div class="card-info">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-explorandoofuturodosoceanos.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>02h55</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gabriel-m-lima.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gabriel M. Lima</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Explorando o Futuro dos Oceanos: Impactos Profundos na Humanidade e no Planeta"</h3>
+                    <a class="open-info-button" href="./info-explorando-o-futuro-dos-oceanos.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+            <div class="card-info right">
+                <div class="up-card">
+                    <img src="../../img/larainfo/cards/bannerinfo-luzesnoturnasdecruzeiroafetamavidamarinha.png" alt="Card de LaraInfo">
+                    <div class="info-data">
+                        <div class="card">
+                            <p class="weight-middle">30.Mar.2024-<strong>03h45</strong></p>
+                        </div>
+                        <a class="card" href="../../index.html">
+                            <img src="../../img/users/gustavo-p-borba.png" alt="Imagem de usuário Gabriel Marques">
+                            <p>Gustavo P. Borba</p>
+                        </a>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/comment-icon.png" alt="Ícone de fazer comentário">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-card">
+                    <h3>"Luzes Noturnas de Cruzeiros Afetam Dramaticamente a Vida Marinha"</h3>
+                    <a class="open-info-button" href="./info-luzes-noturnas-em-cruzeiros-afetam-a-vida-marinha.html">
+                        Abrir
+                        <img src="../../img/open-icon.png" alt="Ícone de abrir">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="left-side-footer">
+            <img src="../../img/logo-larahub-footer.png" alt="Logo do LaraHub">
+        </div>
+        <div id="center-footer">
+            <p>Preservando o oceano</p>
+            <a href="https://github.com/LaraHub-GlobalSolution/LaraHub" target="_blank">
+                <img src="../../img/github-icon.png" alt="Logo do GitHub">
+            </a>
+        </div>
+        <div id="right-side-footer">
+            <p>Desenvolvido por Gabriel Marques Lima & Gustavo P. Borba</p>
+        </div>
+    </footer>
+</body>
+</html>

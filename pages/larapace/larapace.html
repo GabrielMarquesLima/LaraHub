@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/cards.larapace.css">
+    <link rel="stylesheet" href="../../css/larapace.css">
+
+    <script src="../../javascript/button-menu-header.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>LaraInfo</title>
+</head>
+<body>
+    <header>
+        <div id="left-side">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../index.html"><img src="../../img/logo-lara.png" alt="Logo do projeto LaraHub"></a>
+                    </li>
+                    <li class="button-plans-header">
+                        <a href="../plans.html">Ver planos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="center">
+            <button id="button-menu-header" onclick="clickAnimation()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li id="larahub-menu-header">
+                            <a href="../../index.html" class="weight-middle"><strong>Lara</strong>Hub</a>
+                        </li>
+                        <li id="larainfo-menu-header">
+                            <a href="../larainfo/larainfo.html" class="weight-middle"><strong>Lara</strong>Info</a>
+                        </li>
+                        <li id="larapace-menu-header">
+                            <a href="./larapace.html" class="weight-middle"><strong>Lara</strong>Pace</a>
+                        </li>
+                        <li id="laratour-menu-header">
+                            <a href="../laratour/laratour.html" class="weight-middle"><strong>Lara</strong>Tour</a>
+                        </li>
+                        <li id="laracult-menu-header">
+                            <a href="../laracult/laracult.html" class="weight-middle"><strong>Lara</strong>Cult</a>
+                        </li>
+                        <li>
+                            <a href="../sobre.html" class="weight-middle">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="./pages/contato-larahub.html" class="weight-middle">Contato</a>
+                        </li>
+                        <li>
+                            <a href="../plans.html">Ver planos</a>
+                        </li>
+                        <li id="signin-menu-header">
+                            <a href="../signin.html">Sign in</a>
+                        </li>
+                    </ul>
+                </nav>                
+            </div>
+        </div>
+
+        <div id="right-side">
+            <nav>
+                <ul>
+                    <li id="sign-in-header">
+                        <a href="../signin.html">Sign in</a>
+                    </li>
+                    <li id="sign-up-header">
+                        <a href="../signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-banner-larapace">
+            <nav class="navigation-menu" id="cima">
+                <ul>
+                    <li><a href="#principal-larapace" class="weight-middle">
+                        Principais Causas <strong>Lara</strong>Pace
+                        <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone LaraPace">
+                    </a></li>
+                    <li><a href="#meta-larapace" class="weight-middle">
+                        Quase batendo a meta <strong>Lara</strong>Pace
+                        <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                    </a></li>
+                    <li><a href="#ambientais-larapace" class="weight-middle">
+                        Causas ambientais <strong>Lara</strong>Pace
+                        <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                    </a></li>
+                    <li><a href="#nacionais-larapace" class="weight-middle">
+                        Causas nacionais <strong>Lara</strong>Pace
+                        <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                    </a></li>
+                </ul>
+            </nav>
+            <h3 class="weight-middle">Quer adicionar a sua causa ao <strong>Lara</strong>Pace?</h3>
+            <a href="../../index.html" class="button-navigation-banner">Adicionar causa</a>
+        </div>
+
+        <nav class="navigation-menu" id="baixo">
+            <ul>
+                <li><a href="#principal-larapace" class="weight-middle">
+                    Principais Causas <strong>Lara</strong>Pace
+                    <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone LaraPace">
+                </a></li>
+                <li><a href="#meta-larapace" class="weight-middle">
+                    Quase batendo a meta <strong>Lara</strong>Pace
+                    <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                </a></li>
+                <li><a href="#ambientais-larapace" class="weight-middle">
+                    Causas ambientais <strong>Lara</strong>Pace
+                    <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                </a></li>
+                <li><a href="#nacionais-larapace" class="weight-middle">
+                    Causas nacionais <strong>Lara</strong>Pace
+                    <img src="../../img/larapace/logo-larapace-icon.png" alt="Ícone Larapace">
+                </a></li>
+            </ul>
+        </nav>
+
+        <div class="subtitle" id="principal-larapace">
+            <h2 class="weight-middle">Principais <strong>Lara</strong>Pace</h2>
+            <img src="../../img/larapace/logo-larapace-icon.png" alt="Logo do nosso serviço LaraPace">
+        </div>
+
+        <div class="container">
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="meta-larapace">
+            <h2 class="weight-middle">Quase batendo a meta <strong>Lara</strong>Pace</h2>
+            <img src="../../img/larapace/logo-larapace-icon.png" alt="Logo do nosso serviço LaraPace">
+        </div>
+
+        <div class="container">
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="ambientais-larapace">
+            <h2 class="weight-middle">Causas ambientais <strong>Lara</strong>Pace</h2>
+            <img src="../../img/larapace/logo-larapace-icon.png" alt="Logo do nosso serviço LaraPace">
+        </div>
+
+        <div class="container">
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subtitle" id="nacionais-larapace">
+            <h2 class="weight-middle">Causas nacionais <strong>Lara</strong>Pace</h2>
+            <img src="../../img/larapace/logo-larapace-icon.png" alt="Logo do nosso serviço LaraPace">
+        </div>
+
+        <div class="container">
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pace">
+                <div class="left-side-card">
+                    <div class="donation-counter">
+                        <img src="../../img/larapace/icon-donation.png" alt="Ícone de doação">
+                        <p>1.313.313</p>
+                    </div>
+                    <h3 class="title">Apoio ao Rio Grande do Sul</h3>
+                    <p class="subtitle">Vamos arrecadar fundos para ajudar as famílias, escolas, abrigos e entidades assistenciais que sofreram com as chuvas fortes.</p>
+                    <a class="button-saibamais" href="./apoioriograndedosul.html">
+                        Saiba mais
+                    </a>
+                </div>
+                <div class="right-side-card">
+                    <div class="pace-data">
+                        <div class="card">
+                            <p class="weight-middle">Meta: <strong>R$80.000.000,00</strong></p>
+                        </div>
+                        <div class="card">
+                            <p class="weight-middle">Agora: <strong>R$75.794.767,88</strong></p>
+                        </div>
+                        <div class="options">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/share-icon.png" alt="Ícone de compartilhamento">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../../index.html">
+                                            <img src="../../img/favorite-icon.png" alt="Ícone de marcar como favorito">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./apoioriograndedosul.html" class="donate-button">Doar</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="left-side-footer">
+            <img src="../../img/logo-larahub-footer.png" alt="Logo do LaraHub">
+        </div>
+        <div id="center-footer">
+            <p>Preservando o oceano</p>
+            <a href="https://github.com/LaraHub-GlobalSolution/LaraHub" target="_blank">
+                <img src="../../img/github-icon.png" alt="Logo do GitHub">
+            </a>
+        </div>
+        <div id="right-side-footer">
+            <p>Desenvolvido por Gabriel Marques Lima & Gustavo P. Borba</p>
+        </div>
+    </footer>
+</body>
+</html>
