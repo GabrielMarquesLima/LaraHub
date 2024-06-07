@@ -1,0 +1,105 @@
+#laracult-menu-header > a {
+    color: #fff !important;
+}
+
+.banner-laracult{
+    background-image: url(../img/laracult/gif-banner-laracult.gif);
+    background-size: cover;
+    background-position: top;
+    width:80%;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+main > .title-laracult{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 20px 0;
+}
+main > .title-laracult > h1{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36.96px;
+    font-weight: 300;
+}
+
+.history-lara{
+    width: 70%;
+    height: 100px;
+    background-color: #1C1B33;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.history-lara > .left{
+    flex: 1;
+    margin: 10px 0 0 10px;
+}
+.history-lara > .left > h2{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.history-lara > .left > .bottom > p{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+.history-lara > .left > .bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.history-lara > .left > .bottom > .conhecer{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #292929;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.2s;
+}
+
+.history-lara > .left > .bottom > .conhecer:hover{
+    background-color: #FFF;
+    color: #1C1B33;
+}
+
+.history-lara > img{
+    width: 213.6px;
+    height: 215.4px;
+    position: relative;
+    margin: -40px -40px 0 0;
+}
+
+@media (max-width: 900px) {
+    .history-lara{
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .history-lara > img{
+        transform: scale(0.9);
+        margin: 30px 0 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-laracult{
+        width: 100%;
+        height: 600px;
+        margin-top: 0;
+        border-radius: 0;
+        background-size: 800px;
+        height: 350px;
+        background-repeat: no-repeat;
+    }
+}
