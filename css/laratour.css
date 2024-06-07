@@ -1,0 +1,65 @@
+#laratour-menu-header > a{
+    color: #fff !important;
+}
+
+.container-banner-laratour{
+    background-image: url(../img/laratour/gif-banner-tour.gif);
+    background-size: cover;
+    background-position: center 30%;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container-banner-laratour > .button-conhecer{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+}
+.container-banner-laratour > .button-conhecer:hover{
+    background-color: #FFF;
+    color: #1C1B33;
+}
+
+#options-laratour > ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    margin: 10px 0 40px 0;
+}
+#options-laratour > ul > li > a{
+    padding: 5px 10px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    opacity: 0.2;
+    transition: all 0.2s;
+}
+#options-laratour > ul > li > a:hover{
+    opacity: 1;
+}
+
+@media (max-width: 575px) {
+    .container-banner-laratour{
+        width: 100%;
+        height: 600px;
+        margin-top: 0;
+        border-radius: 0;
+    }
+}
