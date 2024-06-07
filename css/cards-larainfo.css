@@ -1,0 +1,235 @@
+/* estilização dos cards, também estão sendo utilizados no index.html */
+.container{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container > .card-info{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 670px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container > .card-info > .up-card{
+    display: flex;
+    align-items: center;
+}
+.container > .card-info > .up-card > img{
+    width: 403px;
+    height: 273px;
+}
+.container > .card-info > .up-card > .info-data{
+    width: 235px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #1C1B33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.container > .card-info > .up-card > .info-data > .card{
+    width: 98%;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.container > .card-info > .up-card > .info-data > .card > p{
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container > .card-info > .up-card >  .info-data > .options{
+    width: 100%;
+    display: flex;
+}
+.container > .card-info > .up-card >  .info-data > .options > nav{
+    width: 100%;
+}
+.container > .card-info > .up-card >  .info-data > .options > nav > ul{
+    display: flex;
+    width: 95%;
+    column-gap: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+.container > .card-info > .up-card >  .info-data > .options > nav > ul > li{
+    width: auto;
+    transition: all 0.2s;
+}
+.container > .card-info > .up-card >  .info-data > .options > nav > ul > li:hover{
+    transform: scale(1.05);
+}
+
+.container > .card-info > .bottom-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container > .card-info > .bottom-card > h3{
+    color: #1C1B33;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 10px 10px;
+    width: 80%;
+}
+.container > .card-info > .bottom-card > .open-info-button{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    background-color:#1C1B33;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px 50px 10px 50px;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+.container > .card-info > .bottom-card > .open-info-button:hover{
+    background-color: #1c1b33a6;
+}
+
+.container > .card-info.right > .up-card{
+    flex-direction: row-reverse;
+}
+.container > .card-info.right > .up-card > .info-data{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.container > .card-info.right > .bottom-card{
+    flex-direction: row-reverse;
+}
+.container > .card-info.right > .bottom-card > .open-info-button{
+    border-radius: 50px 50px 50px 10px;
+}
+.container > .card-info.right > .bottom-card > h3{
+    text-align: right;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container{
+        justify-content: center;
+        gap: 20px;
+    }
+    .container > .card-info,
+    .container > .card-info.right{
+        width: 570px;
+        height: auto;
+        row-gap: 10px;
+        padding: 0 0 10px 0;
+    }
+    .container > .card-info > .up-card,
+    .container > .card-info.right > .up-card{
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 0;
+    }
+    .container > .card-info > .up-card > img,
+    .container > .card-info.right > .up-card > img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 9px 9px 0 0;
+    }
+
+    .container > .card-info > .up-card > .info-data,
+    .container > .card-info.right > .up-card > .info-data{
+        width: 70%;
+        flex-direction: column-reverse;
+        padding: 10px 0 10px 0;
+    }
+    .container > .card-info > .up-card > .info-data > .card{
+        width: 300px;
+        height: 50px;
+    }
+    .container > .card-info > .up-card > .info-data > .options > nav > ul{
+        justify-content: center;
+    }
+    
+    .container > .card-info > .bottom-card,
+    .container > .card-info.right > .bottom-card{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .container > .card-info > .bottom-card > h3,
+    .container > .card-info.right > .bottom-card > h3{
+        width: 90%;
+        margin: 0;
+        text-align: left;
+    }
+    .container > .card-info > .bottom-card > .open-info-button,
+    .container > .card-info.right > .bottom-card > .open-info-button{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container{
+        justify-content: center;
+        gap: 20px;
+    }
+    .container > .card-info,
+    .container > .card-info.right{
+        width: 100%;
+        height: auto;
+        row-gap: 10px;
+        padding: 10px 0 10px 0;
+    }
+    .container > .card-info > .up-card,
+    .container > .card-info.right > .up-card{
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 0;
+    }
+    .container > .card-info > .up-card > img,
+    .container > .card-info.right > .up-card > img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 9px 9px 0 0;
+    }
+
+    .container > .card-info > .up-card > .info-data,
+    .container > .card-info.right > .up-card > .info-data{
+        width: 90%;
+        flex-direction: column-reverse;
+        padding: 0 0 10px 0;
+    }
+    .container > .card-info > .up-card > .info-data > .card{
+        width: 95%;
+        height: 50px;
+    }
+    .container > .card-info > .up-card > .info-data > .options > nav > ul{
+        justify-content: center;
+    }
+    
+    .container > .card-info > .bottom-card,
+    .container > .card-info.right > .bottom-card{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .container > .card-info > .bottom-card > h3,
+    .container > .card-info.right > .bottom-card > h3{
+        width: 90%;
+        margin: 0;
+        text-align: left;
+    }
+    .container > .card-info > .bottom-card > .open-info-button,
+    .container > .card-info.right > .bottom-card > .open-info-button{
+        border-radius: 10px;
+    }
+} 
